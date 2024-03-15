@@ -4,10 +4,10 @@ import com.example.demo.enums.Direction;
 
 public class Position {
 	
-	private int x;
-	private int y;
-	private int z;
-	private Direction direction;
+	public int x;
+	public int y;
+	public int z;
+	public Direction direction;
 	
 	
 	public Position() {

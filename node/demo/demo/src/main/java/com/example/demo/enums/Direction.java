@@ -20,6 +20,12 @@ public enum Direction {
 		LEFT_TURNS.put(SOUTH, EAST);
 		LEFT_TURNS.put(EAST, NORTH);
 	}
-	
+	 public Direction turnRight() {
+         return RIGHT_TURNS.get(this);
+     }
+
+     public Direction turnLeft() {
+         return LEFT_TURNS.get(this);
+     }
 
 }
